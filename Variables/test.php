@@ -82,24 +82,56 @@
     <p>Give it a value and show it.</p>
 
     <?php
-    $i = NULL;
+    $i = NULL;//Defining the variable i as NULL
 
-    echo $i;
-    $i = 12345678910;
+    echo $i; //Displaying the variable
+    $i = 12345678910; // Defining the variable as 12345678910
 
-    echo $i;
+    echo $i; //Displaying the varialbe
 
     ?>
 
 
 
-    <!-- Exercice 6
-    Create a variable name and initialize it with a value of your choice.
-    Show : "Hi" + name + ", how are you ?". -->
+    <h4 class="Exo"> Exercice 6</h4>
+    <p>Create a variable name and initialize it with a value of your choice.
+    <br>Show : "Hi" + name + ", how are you ?".</p>
+    <?php
 
-    <!-- Exercice 7
-    Create three variables name, firstname and age and initialize them with values of your choice. Age is of type integer.
-    Show : "Hi" + name + firstname + ", you are" + age + "year old". -->
+    $name2= "Kombo";//Defining the variable
+    echo "Hi  $name2  , how are you?"; //Displaying the var inside a string
 
+    ?>
+
+
+  <h4 class="Exo"> Exercice 7</h4>
+  <p>Create three variables name, firstname and age and initialize them with values of your choice. Age is of type integer.<br>
+  Show : "Hi" + name + firstname + ", you are" + age + "year old".</p>
+  <?php
+  $nama = KBP;
+  $fn = BPL;
+  $ag = 30;
+
+  echo "Hi $nama $fn , you are  $ag  year old";
+
+   ?>
+
+
+  <h4 class="Exo"> Exercice 8</h4>
+<p>Create 3 variables.</p>
+
+<p>For the first variable, make it equal to the result of 3 + 4.</p>
+<p>For the second variable, make it equal to the result of 5 * 20.</p>
+<p>For the third variable, make it equal to the result of 45 / 5.</p>
+<p>Show the contents of the variables.</p>
+<?php
+
+$x= 7;
+$y= 100;
+$z= 9;
+echo "$x is equal to 3 + 4 <br>" ;
+echo "$y is equal to 5 * 20 <br>" ;
+echo "$z is equal to 45 / 5 <br>" ;
+ ?>
   </body>
 </html>
