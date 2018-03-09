@@ -10,7 +10,6 @@
     <p>Create a variable name and initialize it with a value of your choice
         <br> Show its content.</p>
 
-
     <?php
     // Declaring variables
     $name = "In the begining there was blackness ";
@@ -26,7 +25,6 @@
     <h4 class="Exo">Exercice 2</h4>
     <p>Create three variables name, firstname and age and initialize them with values of your choice. <br> age is an integer. <br>
     Show its content.</p>
-
     <br>
 
     <?php
@@ -77,11 +75,23 @@
       <br>
     Show them.</p>
 
-    <!-- Exercice 5
-    Create a variable of type int.
-    Leave it empty.
-    Show its value.
-    Give it a value and show it. -->
+     <h4 class="Exo">Exercice 5</h4>
+    <p>Create a variable of type int.</p>
+    <p>Leave it empty.</p>
+    <p>Show its value.</p>
+    <p>Give it a value and show it.</p>
+
+    <?php
+    $i = NULL;
+
+    echo $i;
+    $i = 12345678910;
+
+    echo $i;
+
+    ?>
+
+
 
     <!-- Exercice 6
     Create a variable name and initialize it with a value of your choice.
